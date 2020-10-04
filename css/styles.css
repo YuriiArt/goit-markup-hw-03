@@ -6,6 +6,7 @@
   --secondary-background-color: #f5f4fa;
   --primary-background-color: #ffffff;
   --accent-background-color: #2196f3;
+  --hero-background-color: #2f303a;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
 
   font-family: Roboto, sans-serif;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
