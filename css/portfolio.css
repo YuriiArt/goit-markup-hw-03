@@ -1,0 +1,49 @@
+:root {
+  --accent-text-color: #2196f3;
+  --primary-text-color: #212121;
+  --hero-text-color: #ffffff;
+  --secondary-text-color: #757575;
+  --secondary-background-color: #f5f4fa;
+  --primary-background-color: #ffffff;
+  --accent-background-color: #2196f3;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+button:hover,
+button:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-background-color);
+}
+button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+  font-family: inherit;
+}
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-description {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--hero-text-color);
+}
