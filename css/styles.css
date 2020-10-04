@@ -241,7 +241,7 @@ img {
 }
 
 .icon-microscope::before {
-  background-image: url(../images/antenna.svg);
+  background-image: url(../images/icon1.svg);
 }
 
 .icon-intime::before {
@@ -249,11 +249,11 @@ img {
 }
 
 .icon-planing::before {
-  background-image: url(../images/planer.svg);
+  background-image: url(../images/diagram.svg);
 }
 
 .icon-techno::before {
-  background-image: url(../images/astronaut.svg);
+  background-image: url(../images/icon4.svg);
 }
 
 .quolity-title {
