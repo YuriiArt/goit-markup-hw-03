@@ -15,6 +15,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+ul {
+  list-style: none; 
+}
+
 li {
   list-style: none;
 }
@@ -154,6 +158,11 @@ a {
 }
 
 /* footer */
+
+.team {
+  color: var(--black-color); 
+}
+
 .logo > span {
   color: var(--accent-color);
 }
@@ -163,6 +172,7 @@ a {
 
 /*Adress*/
 .address {
+  font-style: normal;
   color: var(--white-color);
   font-size: 14px;
   line-height: 1.71;
