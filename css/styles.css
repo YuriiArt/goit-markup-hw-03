@@ -7,6 +7,7 @@
   --secondary-background-color: #f5f4fa;
   --footer-color: #2f303a;
   --accent-background-color: #2196f3;
+  --border: #eeeeee;
 }
 
 .page {
@@ -49,6 +50,36 @@ a {
   padding-top: 25px;
   padding-bottom: 25px;
   outline: 1px solid tomato;
+}
+
+.container-opisanie {
+  padding: 20px 24px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-contact .item-nav:not(:first-child) {
+  margin-left: 50px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav.flex {
+  margin-right: auto;
+  align-items: center;
 }
 
 .header > .container {
